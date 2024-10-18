@@ -234,3 +234,43 @@ input{
 .cloudy h5{
     color: #fff;
 }
+@media (max-width: 480px) {
+    .weather {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .left-container {
+        width: 100%;
+        padding: 0.5rem;
+        background-size: cover;
+    }
+
+    .right-container {
+        width: 100%;
+        padding: 0.5rem;
+        row-gap: 2rem;
+    }
+
+    .degree h1 {
+        font-size: 2.5rem;
+    }
+
+    .title h2, .cityname h2 {
+        font-size: 1.2rem;
+    }
+
+    .weather-icon-container i {
+        font-size: 2rem;
+    }
+
+    .weather-details {
+        padding: 0.5rem;
+    }
+
+    .cloudy p, .cloudy h5, .country-time p, .weather-condition-text {
+        font-size: 0.9rem;
+    }
+}
